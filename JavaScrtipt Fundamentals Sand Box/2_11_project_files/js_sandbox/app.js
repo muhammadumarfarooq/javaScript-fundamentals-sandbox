@@ -6,7 +6,8 @@ birthday = new Date('September 10 1981');
 birthday = new Date('9/10/1981');
 
 val = today.getMonth();
-val = today.getDate();
+val = today.ge
+tDate();
 val = today.getDay();
 val = today.getFullYear();
 val = today.getHours();
