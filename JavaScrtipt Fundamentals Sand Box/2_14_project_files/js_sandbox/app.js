@@ -1,18 +1,18 @@
 // FUNCTION DECLARATIONS
 
-function greet(firstName = 'John', lastName = 'Doe'){
+function greet(firstName = "John", lastName = "Doe") {
   // if(typeof firstName === 'undefined'){firstName = 'John'}
   // if(typeof lastName === 'undefined'){lastName = 'Doe'}
   //console.log('Hello');
-  return 'Hello ' + firstName + ' ' + lastName;
+  return "Hello " + firstName + " " + lastName;
 }
 
 // console.log(greet());
 
 // FUNCTION EXPRESIONS
 
-const square = function(x = 3){
-  return x*x;
+const square = function(x = 3) {
+  return x * x;
 };
 
 // console.log(square());
@@ -30,17 +30,17 @@ const square = function(x = 3){
 // PROPERTY METHODS
 
 const todo = {
-  add: function(){
-    console.log('Add todo..');
+  add: function() {
+    console.log("Add todo..");
   },
-  edit: function(id){
+  edit: function(id) {
     console.log(`Edit todo ${id}`);
   }
-}
+};
 
-todo.delete = function(){
-  console.log('Delete todo...');
-}
+todo.delete = function() {
+  console.log("Delete todo...");
+};
 
 todo.add();
 todo.edit(22);
